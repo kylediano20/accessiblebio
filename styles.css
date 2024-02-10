@@ -38,10 +38,11 @@ h2 {
 }
 
 .decorative {
-    width: 50%;
+    width: 30%; /* Further reduce the width to ensure it doesn't cause scrolling */
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 20px auto; /* Center the image */
+    max-width: 100%; /* Ensure it never exceeds the viewport width */
 }
 
 form {
