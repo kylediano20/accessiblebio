@@ -3,13 +3,13 @@ body {
     font-size: 16px;
     color: #333333;
     background-color: #FFFFFF;
-    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+    box-sizing: border-box;
 }
 
 header {
     background-color: #EEEEEE;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     box-sizing: border-box;
 }
 
@@ -32,14 +32,14 @@ h2 {
     height: auto;
     border-radius: 50%;
     display: block;
-    margin: 0 0 20px; /* Align left */
+    margin: 0 0 20px;
 }
 
 .decorative {
-    width: 50%; /* Adjust the width as needed to make it smaller */
+    width: 50%;
     height: auto;
     display: block;
-    margin-top: 20px;
+    margin: 20px auto;
     box-sizing: border-box;
 }
 
