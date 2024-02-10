@@ -26,22 +26,23 @@ h2 {
 }
 
 .profile-picture.non-decorative {
+    float: left;
     width: 200px;
     height: auto;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto 20px;
+    margin-right: 20px;
 }
 
 .decorative {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 form {
     margin-top: 20px;
+    clear: both;
 }
 
 form label {
