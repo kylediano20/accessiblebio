@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #EEEEEE;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 2em;
+    color: #005A9C;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #004A7C;
+}
+
+.profile-picture.non-decorative {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #777777;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #008A00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #007000;
+}
+
+footer {
+    background-color: #EEEEEE;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #005A9C;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    background-color: #DDDDDD;
+}
