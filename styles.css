@@ -3,9 +3,6 @@ body {
     font-size: 16px;
     color: #333333;
     background-color: #FFFFFF;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 header {
@@ -16,7 +13,6 @@ header {
 
 h1, h2 {
     font-family: 'Georgia', serif;
-    margin: 0;
 }
 
 h1 {
@@ -30,24 +26,22 @@ h2 {
 }
 
 .profile-picture.non-decorative {
-    float: left;
     width: 200px;
     height: auto;
     border-radius: 50%;
-    margin: 20px 20px 20px 0;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 .decorative {
-    width: 30%; /* Further reduce the width to ensure it doesn't cause scrolling */
+    width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto; /* Center the image */
-    max-width: 100%; /* Ensure it never exceeds the viewport width */
+    margin-top: 20px;
 }
 
 form {
     margin-top: 20px;
-    clear: both;
 }
 
 form label {
@@ -93,8 +87,4 @@ a {
 a:hover, a:focus {
     text-decoration: none;
     background-color: #DDDDDD;
-}
-
-* {
-    box-sizing: border-box;
 }
