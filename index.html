@@ -32,7 +32,7 @@
 
 <section id="contact-form">
     <h2>Contact Me</h2>
-    <form action="mailto:kyle.diano@tamu.edu" method="post" enctype="text/plain">
+    <form id="contactForm" onsubmit="handleSubmit(event)">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         
@@ -45,6 +45,20 @@
         <input type="submit" value="Send Message">
     </form>
 </section>
+
+<script>
+function handleSubmit(event) {
+    event.preventDefault(); // Prevent the form from submitting in the traditional way
+    
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    
+    var mailtoLink = `mailto:kyle.diano@tamu.edu?subject=Message from ${name}&body=Name: ${name}%0AEmail: ${email}%0A%0AMessage: ${message}`;
+    window.location.href = mailtoLink; // Open the user's email client
+}
+</script>
+
 
 <footer>
     <h2>Contact Info</h2>
